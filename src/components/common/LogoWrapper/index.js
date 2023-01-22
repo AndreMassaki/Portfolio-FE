@@ -11,17 +11,17 @@ export default function LogoWrapper() {
         {'<'}
       </Logo.Span>
       <Logo.Span
-        pink
+        blue
       >
         MASSAKI
       </Logo.Span>
       <Logo.Span
-        white
+        purple
       >
         .
       </Logo.Span>
       <Logo.Span
-        purple
+        pink
       >
         DEV
       </Logo.Span>

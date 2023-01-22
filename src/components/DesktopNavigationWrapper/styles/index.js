@@ -43,7 +43,7 @@ DesktopNavigation.Item = styled.li`
 
 DesktopNavigation.Link = styled.a`
   text-decoration: none;
-  color: ${({ theme }) => theme.default.green};
+  color: ${({ theme }) => theme.default.blue};
 
   &:hover {
     color: ${({ theme }) => theme.default.pink};
@@ -57,9 +57,8 @@ DesktopNavigation.Link = styled.a`
 DesktopNavigation.Dracula = styled.a`
   display: none;
   background-image: url(/images/dracula.webp);
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
   background-size: cover;
   transition: transform 0.3s;
 

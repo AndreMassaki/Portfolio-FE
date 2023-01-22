@@ -9,6 +9,7 @@ const Header = styled.header`
   padding: 0 1rem;
 
   .aiOutlineMenu {
+    color: ${({ theme }) => theme.default.pink};
     width: 35px;
     height: 35px;
   }

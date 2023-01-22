@@ -10,30 +10,28 @@ const MobileNavigation = styled.nav`
   align-items: center;
   top: 0;
   left: 0;
-  backdrop-filter: blur(0.25rem);
-  background: rgb(30,249,86);
-  background: -moz-linear-gradient(180deg, rgba(30,249,86,0.5) 0%, rgba(0,0,0,0.5) 100%);
-  background: -webkit-linear-gradient(180deg, rgba(30,249,86,0.5) 0%, rgba(0,0,0,0.5) 100%);
-  background: linear-gradient(180deg, rgba(30,249,86,0.5) 0%, rgba(0,0,0,0.5) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1ef956",endColorstr="#000000",GradientType=1);
   pointer-events: none;
-  transition: 0.3s;
+  backdrop-filter: blur(0.25rem);
+  background: rgba(0,0,0, 0.75);
+  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(139,233,253,0.5) 100%);  transition: 0.3s;
   transform: translateY(3rem);
 
   .aiOutlineClose {
     position: absolute;
     top: 1rem;
-    right: 1rem;
+    right: 0.7rem;
     transform: rotate(45deg);
     transition: 0.5s;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
+    color: ${({ theme }) => theme.default.pink};
   }
 
   @media screen and (min-width: 425px) {
     .aiOutlineClose {
-      width: 45px;
-      height: 45px;
+      width: 55px;
+      height: 55px;
+      top: 0.7rem;
     }
   }
 
@@ -64,7 +62,7 @@ MobileNavigation.List = styled.ul`
 
 MobileNavigation.Link = styled.a`
   text-decoration: none;
-  color: ${({ theme }) => theme.default.green};
+  color: ${({ theme }) => theme.default.blue};
   font-size: 1.25rem;
 
   @media screen and (min-width: 425px) {
