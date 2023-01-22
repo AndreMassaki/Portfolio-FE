@@ -1,6 +1,7 @@
 const theme = {
   default: {
-    green: '#1EF956',
+    green: '#50FA7B',
+    blue: '#8BE9FD',
     purple: '#BD93F9',
     pink: '#FF79C6',
     background: {
