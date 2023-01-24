@@ -16,7 +16,7 @@ export default function MobileNavigationWrapper({
     >
       <AiOutlineClose
         className="aiOutlineClose"
-        onClick={() => setMobileNavigationIsVisible(false)}
+        onClick={() => setMobileNavigationIsVisible()}
       />
       <MobileNavigation.List
         mobileNavigationIsVisible={mobileNavigationIsVisible}

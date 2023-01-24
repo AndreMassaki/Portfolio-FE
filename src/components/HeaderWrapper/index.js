@@ -8,6 +8,9 @@ import Header from './styles';
 
 export default function HeaderWrapoper() {
   const [mobileNavigationIsVisible, setMobileNavigationIsVisible] = useState(false);
+  function handleChange() {
+    setMobileNavigationIsVisible(!mobileNavigationIsVisible);
+  }
 
   return (
     <Header>
@@ -17,11 +20,11 @@ export default function HeaderWrapoper() {
       </Header.Div>
       <AiOutlineMenu
         className="aiOutlineMenu"
-        onClick={() => setMobileNavigationIsVisible(true)}
+        onClick={() => handleChange()}
       />
       <MobileNavigationWrapper
         mobileNavigationIsVisible={mobileNavigationIsVisible}
-        setMobileNavigationIsVisible={setMobileNavigationIsVisible}
+        setMobileNavigationIsVisible={() => handleChange()}
       />
     </Header>
   );
