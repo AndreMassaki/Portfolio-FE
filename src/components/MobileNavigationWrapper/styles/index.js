@@ -13,7 +13,8 @@ const MobileNavigation = styled.nav`
   pointer-events: none;
   backdrop-filter: blur(0.25rem);
   background: rgba(0,0,0, 0.75);
-  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(139,233,253,0.5) 100%);  transition: 0.3s;
+  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(139,233,253,0.5) 100%);
+  transition: all 0.3s;
   transform: translateY(3rem);
 
   .aiOutlineClose {
@@ -53,7 +54,7 @@ MobileNavigation.List = styled.ul`
   align-items: center;
   gap: 1rem;
   transform: scale(0.5);
-  transition: 0.5s;
+  transition: transform 0.5s;
 
   ${({ mobileNavigationIsVisible }) => mobileNavigationIsVisible && css`
     transform: scale(1);
