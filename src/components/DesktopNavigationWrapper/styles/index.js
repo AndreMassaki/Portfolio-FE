@@ -48,10 +48,6 @@ DesktopNavigation.Link = styled.a`
   &:hover {
     color: ${({ theme }) => theme.default.pink};
   }
-
-  @media screen and (min-width: 1200px) {
-    font-size: 1.25rem;
-  }
 `;
 
 DesktopNavigation.Dracula = styled.a`
@@ -60,6 +56,7 @@ DesktopNavigation.Dracula = styled.a`
   width: 4rem;
   height: 4rem;
   background-size: cover;
+  border-radius: 50%;
   transition: transform 0.3s;
 
   &:hover {

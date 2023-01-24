@@ -16,10 +16,6 @@ const Logo = styled.a`
     font-size: 1.75rem;
   }
 
-  @media screen  and (min-width: 1200px) {
-    font-size: 2rem;
-  }
-
   @media screen  and (min-width: 1440px) {
     font-size: 2.5rem;
   }

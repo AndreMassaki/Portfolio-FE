@@ -43,18 +43,6 @@ Header.Div = styled.div`
   @media screen and (min-width: 768px) {
     gap: 2rem;
   }
-
-  @media screen and (min-width: 1024px) {
-    gap: 1rem;
-  }
-
-  @media screen and (min-width: 1200px) {
-    gap: 1.5rem;
-  }
-
-  @media screen and (min-width: 1440px) {
-    gap: 2rem;
-  }
 `;
 
 export default Header;
