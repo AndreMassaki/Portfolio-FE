@@ -11,13 +11,10 @@ const DesktopNavigation = styled.nav`
 `;
 
 DesktopNavigation.Div = styled.div`
-  background-color: ${({ theme }) => theme.default.background.light};
   position: absolute;
   top: 0;
   right: 0;
-  width: 15rem;
-  height: 5rem;
-  padding-right: 1rem;
+  padding: 1rem 1rem 0 0;
   align-items: center;
   justify-content: flex-end;
   display: none;

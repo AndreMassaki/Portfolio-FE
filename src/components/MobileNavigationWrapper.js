@@ -1,7 +1,7 @@
-import styled, { css } from 'styled-components';
+import { motion } from 'framer-motion';
+import styled from 'styled-components';
 
-const MobileNavigation = styled.nav`
-  opacity: 0;
+const MobileNavigation = styled(motion.nav)`
   position: absolute;
   width: 100%;
   height: 100%;
@@ -10,19 +10,14 @@ const MobileNavigation = styled.nav`
   align-items: center;
   top: 0;
   left: 0;
-  pointer-events: none;
   backdrop-filter: blur(0.25rem);
   background: rgba(0,0,0, 0.75);
   background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(139,233,253,0.5) 100%);
-  transition: all 0.3s;
-  transform: translateY(3rem);
 
   .aiOutlineClose {
     position: absolute;
     top: 1rem;
     right: 0.7rem;
-    transform: rotate(45deg);
-    transition: 0.5s;
     width: 45px;
     height: 45px;
     color: ${({ theme }) => theme.default.pink};
@@ -35,39 +30,27 @@ const MobileNavigation = styled.nav`
       top: 0.7rem;
     }
   }
-
-  ${({ mobileNavigationIsVisible }) => mobileNavigationIsVisible && css`
-    pointer-events: auto;
-    transform: translateY(0);
-    opacity: 1;
-
-    .aiOutlineClose {
-      transform: rotate(0deg);
-    }
-  `}
 `;
 
-MobileNavigation.List = styled.ul`
+MobileNavigation.List = styled(motion.ul)`
   list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  transform: scale(0.5);
-  transition: transform 0.5s;
 
-  ${({ mobileNavigationIsVisible }) => mobileNavigationIsVisible && css`
-    transform: scale(1);
-  `}
+  @media screen and (min-width: 425px) {
+    gap: 1.5rem;
+  }
 `;
 
 MobileNavigation.Link = styled.a`
   text-decoration: none;
   color: ${({ theme }) => theme.default.blue};
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 
   @media screen and (min-width: 425px) {
-    font-size: 1.5rem
+    font-size: 1.75rem
   }
 `;
 

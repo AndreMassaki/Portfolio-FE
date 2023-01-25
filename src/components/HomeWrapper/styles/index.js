@@ -24,8 +24,6 @@ const Home = styled.section`
   }
 `;
 
-Home.Div = styled.div``;
-
 Home.Background = styled.div`
   display: none;
   background-color: ${({ theme }) => theme.default.background.light};

@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 
 import Home from './styles';
@@ -7,13 +8,16 @@ export default function HomeWrapper() {
     <Home
       id="home"
     >
-      <div>
-        <Home.Background />
+      <motion.div
+        initial={{ scale: 0.7 }}
+        animate={{ scale: 1 }}
+        exit={{ scale: 0.7 }}
+      >
         <Home.Image
           src="/images/home.webp"
           alt="Image"
         />
-      </div>
+      </motion.div>
       <Home.Texts>
         <Home.Title>
           <Home.Span
@@ -76,9 +80,22 @@ export default function HomeWrapper() {
           >
             Scroll Down
           </Home.Span>
-          <AiOutlineArrowDown
-            className="aiOutlineArrowDown"
-          />
+          <motion.div
+            initial={{ y: 0 }}
+            animate={{
+              y: '10px',
+              transition: {
+                duration: 0.7,
+                repeat: Infinity,
+                repeatType: 'reverse',
+              },
+            }}
+            exit={{ y: 0 }}
+          >
+            <AiOutlineArrowDown
+              className="aiOutlineArrowDown"
+            />
+          </motion.div>
         </Home.Scroll>
       </Home.Texts>
     </Home>
