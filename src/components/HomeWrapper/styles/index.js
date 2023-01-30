@@ -5,11 +5,13 @@ const Home = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 3rem;
+  min-height: calc(100vh - 5rem);
 
   @media screen and (min-width: 768px) {
     flex-direction: row-reverse;
     justify-content: center;
-    padding-top: 1rem;
+    padding-bottom: 0;
     gap: 3rem;
   }
 
