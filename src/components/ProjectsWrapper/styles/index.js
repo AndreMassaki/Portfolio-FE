@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 const Projects = styled.section`
   background-color: ${({ theme }) => theme.default.background.dark};
-  min-height: 100vh;
   padding: 1rem 0;
 
   @media screen and (min-width: 768px) {

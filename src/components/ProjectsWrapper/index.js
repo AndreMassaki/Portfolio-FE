@@ -40,7 +40,6 @@ export default function ProjectsWrapper() {
         </Projects.Click>
       </Projects.Texts>
       <Projects.Container>
-
         <Projects.Cards>
           <CardWrapper
             src="/images/mycontacts.webp"
@@ -60,8 +59,43 @@ export default function ProjectsWrapper() {
           >
             React, Next, Styled-Componentss
           </CardWrapper>
+          <CardWrapper
+            src="/images/mycontacts.webp"
+            alt="Image"
+            project="MyContacts"
+            description="Projeto desenvolvido durante o curso JSTACK do @imateus.silva."
+            developed="30 dias"
+          >
+            React, Next, Styled-Components, Node, Express e Postgress
+          </CardWrapper>
+          <CardWrapper
+            src="/images/crypto.webp"
+            alt="Image"
+            project="Crypto"
+            description="Projeto desenvolvido a partir de um design comprado para estudos."
+            developed="30 dias"
+          >
+            React, Next, Styled-Componentss
+          </CardWrapper>
+          <CardWrapper
+            src="/images/mycontacts.webp"
+            alt="Image"
+            project="MyContacts"
+            description="Projeto desenvolvido durante o curso JSTACK do @imateus.silva."
+            developed="30 dias"
+          >
+            React, Next, Styled-Components, Node, Express e Postgress
+          </CardWrapper>
+          <CardWrapper
+            src="/images/crypto.webp"
+            alt="Image"
+            project="Crypto"
+            description="Projeto desenvolvido a partir de um design comprado para estudos."
+            developed="30 dias"
+          >
+            React, Next, Styled-Componentss
+          </CardWrapper>
         </Projects.Cards>
-
         <Projects.Button
           type="button"
           onClick={() => alert('Em breve!')}
