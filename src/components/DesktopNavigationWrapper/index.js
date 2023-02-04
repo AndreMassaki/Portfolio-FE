@@ -13,13 +13,6 @@ export default function DesktopNavigationWrapper() {
         </DesktopNavigation.Item>
         <DesktopNavigation.Item>
           <DesktopNavigation.Link
-            href="#about"
-          >
-            Sobre
-          </DesktopNavigation.Link>
-        </DesktopNavigation.Item>
-        <DesktopNavigation.Item>
-          <DesktopNavigation.Link
             href="#projects"
           >
             Projetos
@@ -34,6 +27,13 @@ export default function DesktopNavigationWrapper() {
         </DesktopNavigation.Item>
         <DesktopNavigation.Item>
           <DesktopNavigation.Link
+            href="#about"
+          >
+            Sobre
+          </DesktopNavigation.Link>
+        </DesktopNavigation.Item>
+        <DesktopNavigation.Item>
+          <DesktopNavigation.Link
             href="#contact"
           >
             Contato
@@ -42,6 +42,7 @@ export default function DesktopNavigationWrapper() {
         <DesktopNavigation.Item>
           <DesktopNavigation.Link
             href="#blog"
+            onClick={() => alert('Em breve!')}
           >
             Blog
           </DesktopNavigation.Link>

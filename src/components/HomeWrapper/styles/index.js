@@ -43,7 +43,7 @@ Home.Background = styled.div`
 Home.Image = styled.img`
   width: 16rem;
   height: 16rem;
-  object-fit: cover;
+  object-fit: contain;
 
   @media screen and (min-width: 375px) {
     width: 18rem;

@@ -9,9 +9,18 @@ export default function HomeWrapper() {
       id="home"
     >
       <motion.div
-        initial={{ scale: 0.7 }}
-        animate={{ scale: 1 }}
-        exit={{ scale: 0.7 }}
+        initial={{
+          y: 32,
+          opacity: 0.5,
+        }}
+        animate={{
+          y: 0,
+          opacity: 1,
+          transition: {
+            duration: 1.5,
+            repeat: 0,
+          },
+        }}
       >
         <Home.Image
           src="/images/home.webp"

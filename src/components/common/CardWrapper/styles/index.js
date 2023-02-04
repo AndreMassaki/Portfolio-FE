@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 const Card = styled.article`
   background-color: ${({ theme }) => theme.default.background.light};
   width: 85vw;
-  max-width: 30rem;
+  max-width: 40rem;
   transition: transform 0.3s;
 
   &:hover {
@@ -16,6 +16,10 @@ const Card = styled.article`
 
   @media screen and (min-width: 1024px) {
     width: 25vw;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 30vw;
   }
 `;
 

@@ -94,6 +94,7 @@ Projects.Button = styled.button`
 
   &:hover {
     opacity: 0.7;
+    cursor: pointer;
     color: ${({ theme }) => theme.default.remaining.black};
   }
 `;

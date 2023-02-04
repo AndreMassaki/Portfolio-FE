@@ -60,16 +60,23 @@ export default function HeaderWrapoper() {
               </li>
               <li>
                 <MobileNavigation.Link
-                  href="#about"
+                  href="#projects"
                 >
-                  Sobre
+                  Projetos
                 </MobileNavigation.Link>
               </li>
               <li>
                 <MobileNavigation.Link
-                  href="#projects"
+                  href="#skills"
                 >
-                  Projetos
+                  Habilidades
+                </MobileNavigation.Link>
+              </li>
+              <li>
+                <MobileNavigation.Link
+                  href="#about"
+                >
+                  Sobre
                 </MobileNavigation.Link>
               </li>
               <li>
@@ -82,6 +89,7 @@ export default function HeaderWrapoper() {
               <li>
                 <MobileNavigation.Link
                   href="#blog"
+                  onClick={() => alert('Em breve!')}
                 >
                   Blog
                 </MobileNavigation.Link>
