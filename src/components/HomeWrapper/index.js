@@ -65,11 +65,11 @@ export default function HomeWrapper() {
           </Home.Span>
         </Home.Title>
         <Home.Text>
-          Estudo as tecnologias mais recentes do desenvolvimento web, como:
+          Estudo as tecnologias mais presentes do desenvolvimento web, como:
           <Home.Span
             bold
           >
-            {' React, Styled-Components e Next'}
+            {' React, Styled-Components, Next, Node, Express e PostgreSQL'}
           </Home.Span>
         </Home.Text>
         <Home.Text>

@@ -5,7 +5,11 @@ const Skills = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2.5rem 0;
+  padding: 1rem 0;
+
+  @media screen and (min-width: 768px) {
+    padding: 2rem 0;
+  }
 `;
 
 Skills.Title = styled.h2`
@@ -45,18 +49,9 @@ Skills.Technologies = styled.section`
     justify-content: center;
     flex-wrap: wrap;
   }
-`;
 
-Skills.Technology = styled.article`
-  background-color: ${({ theme }) => theme.default.background.light};
-  display: flex;
-  width: 85vw;
-  align-items: center;
-  padding: 0.5rem;
-  gap: 0.5rem;
-
-  @media screen and (min-width: 425px) {
-    width: 45vw;
+  @media screen and (min-width: 1024px) {
+    max-width: 64rem;
   }
 `;
 

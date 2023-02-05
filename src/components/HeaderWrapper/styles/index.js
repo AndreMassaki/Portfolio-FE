@@ -32,7 +32,11 @@ const Header = styled.header`
 
   @media screen and (min-width: 1024px) {
     justify-content: space-between;
-    padding: 0 1rem;
+    padding-left: 2rem;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding-left: 3.5rem;
   }
 `;
 

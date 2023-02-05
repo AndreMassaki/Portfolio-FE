@@ -3,9 +3,12 @@ import styled from 'styled-components';
 const Projects = styled.section`
   background-color: ${({ theme }) => theme.default.background.dark};
   padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @media screen and (min-width: 768px) {
-    padding: 2.5rem 0
+    padding: 2rem 0
   }
 `;
 
@@ -17,7 +20,7 @@ Projects.Texts = styled.div`
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
-    justify-content: space-around;
+    gap: 5rem;
   }
 `;
 
@@ -104,7 +107,7 @@ Projects.Cards = styled.section`
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  width: 100%;
+  max-width: 52rem;
   flex-wrap: wrap;
 
   @media screen and (min-width: 768px) {

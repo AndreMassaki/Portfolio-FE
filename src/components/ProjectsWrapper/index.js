@@ -48,7 +48,7 @@ export default function ProjectsWrapper() {
             description="Projeto desenvolvido durante o curso JSTACK do @imateus.silva."
             developed="30 dias"
           >
-            React, Next, Styled-Components, Node, Express e Postgress
+            React, Next, Styled-Components, Node, Express e PostgreSQL
           </CardWrapper>
           <CardWrapper
             src="/images/crypto.webp"
@@ -66,7 +66,7 @@ export default function ProjectsWrapper() {
             description="Projeto desenvolvido durante o curso JSTACK do @imateus.silva."
             developed="30 dias"
           >
-            React, Next, Styled-Components, Node, Express e Postgress
+            React, Next, Styled-Components, Node, Express e PostgreSQL
           </CardWrapper>
           <CardWrapper
             src="/images/crypto.webp"
@@ -84,7 +84,7 @@ export default function ProjectsWrapper() {
             description="Projeto desenvolvido durante o curso JSTACK do @imateus.silva."
             developed="30 dias"
           >
-            React, Next, Styled-Components, Node, Express e Postgress
+            React, Next, Styled-Components, Node, Express e PostgreSQL
           </CardWrapper>
           <CardWrapper
             src="/images/crypto.webp"

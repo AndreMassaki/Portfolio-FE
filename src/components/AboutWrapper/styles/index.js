@@ -5,8 +5,12 @@ const About = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2.5rem 0;
+  padding: 1rem 0;
   gap: 2.5rem;
+
+  @media screen and (min-width: 768px) {
+    padding: 2rem 0;
+  }
 `;
 
 About.Title = styled.h2`

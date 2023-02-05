@@ -25,6 +25,7 @@ const Technology = styled.article`
 
   @media screen and (min-width: 1024px) {
     width: 30vw;
+    max-width: 20rem;
   }
 `;
 
