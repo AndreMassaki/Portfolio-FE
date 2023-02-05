@@ -59,36 +59,6 @@ export default function SkillsWrapper() {
           Next
         </TechnologyWrapper>
         <TechnologyWrapper
-          src="/images/npm.webp"
-          alt="Image"
-        >
-          NPM
-        </TechnologyWrapper>
-        <TechnologyWrapper
-          src="/images/yarn.webp"
-          alt="Image"
-        >
-          Yarn
-        </TechnologyWrapper>
-        <TechnologyWrapper
-          src="/images/eslint.webp"
-          alt="Image"
-        >
-          Eslint
-        </TechnologyWrapper>
-        <TechnologyWrapper
-          src="/images/visual-studio-code.webp"
-          alt="Image"
-        >
-          VS Code
-        </TechnologyWrapper>
-        <TechnologyWrapper
-          src="/images/codepen.webp"
-          alt="Image"
-        >
-          Codepen
-        </TechnologyWrapper>
-        <TechnologyWrapper
           src="/images/bootstrap.webp"
           alt="Image"
         >
@@ -105,18 +75,6 @@ export default function SkillsWrapper() {
           alt="Image"
         >
           Tailwindcss
-        </TechnologyWrapper>
-        <TechnologyWrapper
-          src="/images/babel.webp"
-          alt="Image"
-        >
-          Babel
-        </TechnologyWrapper>
-        <TechnologyWrapper
-          src="/images/webpack.webp"
-          alt="Image"
-        >
-          Webpack
         </TechnologyWrapper>
         <TechnologyWrapper
           src="/images/typescript.webp"
@@ -147,12 +105,6 @@ export default function SkillsWrapper() {
           alt="Image"
         >
           PostgreSQL
-        </TechnologyWrapper>
-        <TechnologyWrapper
-          src="/images/aws.webp"
-          alt="Image"
-        >
-          AWS
         </TechnologyWrapper>
       </Skills.Technologies>
     </Skills>
