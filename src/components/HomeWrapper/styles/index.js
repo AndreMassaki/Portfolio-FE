@@ -87,10 +87,6 @@ Home.Texts = styled.div`
     margin-top: 0;
     max-width: 40%;
   }
-
-  @media screen and (min-width: 1024px) {
-    max-width: 50%;
-  }
 `;
 
 Home.Title = styled.h1`
