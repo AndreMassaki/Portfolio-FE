@@ -1,17 +1,26 @@
 const theme = {
   default: {
     green: '#50FA7B',
-    blue: '#8BE9FD',
+    cyan: '#8BE9FD',
     purple: '#BD93F9',
     pink: '#FF79C6',
-    background: {
-      light: '#44475A',
-      dark: '#282A36',
-    },
+    comment: '#6272A4',
+    background: '#282a36',
+    currentLine: '#44475a',
+    yellow: '#f1fa8c',
     remaining: {
       white: '#FFFFFF',
       black: '#000000',
-      gray: '#808080',
+      gray: {
+        light: '#808080',
+        dark: '#505050',
+      },
+      alpha: {
+        green: {
+          65: '#50FA7BA6',
+          45: '#50FA7B73',
+        },
+      },
     },
   },
   breakpoints: {

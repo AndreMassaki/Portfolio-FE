@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Projects = styled.section`
-  background-color: ${({ theme }) => theme.default.background.dark};
+  background-color: ${({ theme }) => theme.default.background};
   padding: 1rem 0;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@ Projects.Texts = styled.div`
 `;
 
 Projects.Title = styled.h2`
-  color: ${({ theme }) => theme.default.blue};
+  color: ${({ theme }) => theme.default.cyan};
   font-size: 2.5rem;
   font-weight: 700;
 
@@ -89,11 +89,11 @@ Projects.Container = styled.section`
 
 Projects.Button = styled.button`
   padding: 1rem 2rem;
-  background-color: ${({ theme }) => theme.default.blue};
+  background-color: ${({ theme }) => theme.default.cyan};
   color: ${({ theme }) => theme.default.remaining.black};
   font-size: 1rem;
   border: none;
-  filter: drop-shadow(0 0 0.3rem ${({ theme }) => theme.default.blue});
+  filter: drop-shadow(0 0 0.3rem ${({ theme }) => theme.default.cyan});
 
   &:hover {
     opacity: 0.7;

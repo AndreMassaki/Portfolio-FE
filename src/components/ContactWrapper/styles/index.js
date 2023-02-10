@@ -1,19 +1,15 @@
 import styled from 'styled-components';
 
-const Skills = styled.section`
+const Contact = styled.section`
   background-color: ${({ theme }) => theme.default.background};
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 0;
-
-  @media screen and (min-width: 768px) {
-    padding: 2rem 0;
-  }
+  padding: 2.5rem 0;
 `;
 
-Skills.Title = styled.h2`
-  color: ${({ theme }) => theme.default.pink};
+Contact.Title = styled.h2`
+  color: ${({ theme }) => theme.default.green};
   font-size: 2rem;
   font-weight: 700;
 
@@ -38,11 +34,11 @@ Skills.Title = styled.h2`
   }
 `;
 
-Skills.Technologies = styled.section`
+Contact.Technologies = styled.section`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 2.5rem 0;
+  padding: 3rem 0;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
@@ -55,13 +51,4 @@ Skills.Technologies = styled.section`
   }
 `;
 
-Skills.Image = styled.img`
-  width: 5rem;
-`;
-
-Skills.Text = styled.p`
-  color: ${({ theme }) => theme.default.remaining.white};
-  margin: 0 auto;
-`;
-
-export default Skills;
+export default Contact;

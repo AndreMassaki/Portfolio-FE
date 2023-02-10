@@ -46,7 +46,7 @@ MobileNavigation.List = styled(motion.ul)`
 
 MobileNavigation.Link = styled.a`
   text-decoration: none;
-  color: ${({ theme }) => theme.default.blue};
+  color: ${({ theme }) => theme.default.cyan};
   font-size: 1.5rem;
 
   @media screen and (min-width: 425px) {

@@ -26,7 +26,7 @@ Logo.Span = styled.span`
     color: ${theme.default.green}
   `}
   ${({ blue, theme }) => blue && css`
-    color: ${theme.default.blue}
+    color: ${theme.default.cyan}
   `}
   ${({ pink, theme }) => pink && css`
     color: ${theme.default.pink}

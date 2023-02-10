@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const Technology = styled.article`
-  background-color: ${({ theme }) => theme.default.background.light};
+const Technology = styled.a`
+  background-color: ${({ theme }) => theme.default.currentLine};
   display: flex;
   width: 85vw;
   align-items: center;
@@ -9,6 +9,7 @@ const Technology = styled.article`
   gap: 0.5rem;
   height: 7.5rem;
   transition: transform 0.25s;
+  text-decoration: none;
 
   &:hover {
     transform: scale(1.03);

@@ -40,7 +40,7 @@ DesktopNavigation.Item = styled.li`
 
 DesktopNavigation.Link = styled.a`
   text-decoration: none;
-  color: ${({ theme }) => theme.default.blue};
+  color: ${({ theme }) => theme.default.cyan};
 
   &:hover {
     color: ${({ theme }) => theme.default.pink};

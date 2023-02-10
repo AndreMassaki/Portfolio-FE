@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const Home = styled.section`
-  background-color: ${({ theme }) => theme.default.background.dark};
+  background-color: ${({ theme }) => theme.default.background};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +28,7 @@ const Home = styled.section`
 
 Home.Background = styled.div`
   display: none;
-  background-color: ${({ theme }) => theme.default.background.light};
+  background-color: ${({ theme }) => theme.default.currentLine};
   width: 15rem;
   height: 30rem;
   position: absolute;
@@ -99,7 +99,7 @@ Home.Span = styled.span`
   `}
 
   ${({ blue, theme }) => blue && css`
-    color: ${theme.default.blue};
+    color: ${theme.default.cyan};
   `}
 
   ${({ pink, theme }) => pink && css`

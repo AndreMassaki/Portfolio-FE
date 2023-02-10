@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const Card = styled.article`
-  background-color: ${({ theme }) => theme.default.background.light};
+  background-color: ${({ theme }) => theme.default.currentLine};
   width: 85vw;
   transition: transform 0.3s;
 

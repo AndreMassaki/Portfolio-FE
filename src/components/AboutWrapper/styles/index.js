@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const About = styled.section`
-  background-color: ${({ theme }) => theme.default.background.dark};
+  background-color: ${({ theme }) => theme.default.background};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,7 +116,7 @@ About.Span = styled.span`
   `}
 
   ${({ blue, theme }) => blue && css`
-    color: ${theme.default.blue}
+    color: ${theme.default.cyan}
   `}
 `;
 

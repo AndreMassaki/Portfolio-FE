@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Header = styled.header`
-  background-color: ${({ theme }) => theme.default.background.dark};
+  background-color: ${({ theme }) => theme.default.background};
   display: flex;
   justify-content: space-between;
   align-items: center;
