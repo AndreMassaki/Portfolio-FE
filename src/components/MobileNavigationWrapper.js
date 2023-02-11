@@ -42,15 +42,15 @@ MobileNavigation.List = styled(motion.ul)`
   @media screen and (min-width: 425px) {
     gap: 1.5rem;
   }
-`;
 
-MobileNavigation.Link = styled.a`
-  text-decoration: none;
-  color: ${({ theme }) => theme.default.cyan};
-  font-size: 1.5rem;
+  li a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.default.cyan};
+    font-size: 1.5rem;
 
-  @media screen and (min-width: 425px) {
-    font-size: 1.75rem
+    @media screen and (min-width: 425px) {
+      font-size: 1.75rem
+    }
   }
 `;
 

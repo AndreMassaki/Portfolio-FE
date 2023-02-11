@@ -36,14 +36,14 @@ DesktopNavigation.Item = styled.li`
   &:hover {
     transform: scale(1.1);
   }
-`;
 
-DesktopNavigation.Link = styled.a`
-  text-decoration: none;
-  color: ${({ theme }) => theme.default.cyan};
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.default.cyan};
 
-  &:hover {
-    color: ${({ theme }) => theme.default.pink};
+    &:hover {
+      color: ${({ theme }) => theme.default.pink};
+    }
   }
 `;
 

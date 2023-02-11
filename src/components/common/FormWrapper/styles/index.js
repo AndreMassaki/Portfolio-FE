@@ -3,8 +3,8 @@ import styled, { css } from 'styled-components';
 const Form = styled.form`
   background-color: ${({ theme }) => theme.default.currentLine};
   width: 85vw;
-  padding: 2rem 1rem;
-  max-width: 48rem;
+  padding: 1rem;
+  max-width: 36rem;
 `;
 
 Form.Container = styled.div`

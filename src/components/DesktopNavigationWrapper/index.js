@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import DesktopNavigation from './styles';
 
 export default function DesktopNavigationWrapper() {
@@ -5,47 +7,52 @@ export default function DesktopNavigationWrapper() {
     <DesktopNavigation>
       <DesktopNavigation.List>
         <DesktopNavigation.Item>
-          <DesktopNavigation.Link
+          <Link
             href="#home"
+            scroll={false}
           >
             Início
-          </DesktopNavigation.Link>
+          </Link>
         </DesktopNavigation.Item>
         <DesktopNavigation.Item>
-          <DesktopNavigation.Link
+          <Link
             href="#projects"
+            scroll={false}
           >
             Projetos
-          </DesktopNavigation.Link>
+          </Link>
         </DesktopNavigation.Item>
         <DesktopNavigation.Item>
-          <DesktopNavigation.Link
+          <Link
             href="#skills"
+            scroll={false}
           >
             Habilidades
-          </DesktopNavigation.Link>
+          </Link>
         </DesktopNavigation.Item>
         <DesktopNavigation.Item>
-          <DesktopNavigation.Link
+          <Link
             href="#about"
+            scroll={false}
           >
             Sobre
-          </DesktopNavigation.Link>
+          </Link>
         </DesktopNavigation.Item>
         <DesktopNavigation.Item>
-          <DesktopNavigation.Link
+          <Link
             href="#contact"
+            scroll={false}
           >
             Contato
-          </DesktopNavigation.Link>
+          </Link>
         </DesktopNavigation.Item>
         <DesktopNavigation.Item>
-          <DesktopNavigation.Link
-            href="#blog"
-            onClick={() => alert('Em breve!')}
+          <Link
+            href="#home"
+            scroll={false}
           >
             Blog
-          </DesktopNavigation.Link>
+          </Link>
         </DesktopNavigation.Item>
       </DesktopNavigation.List>
       <DesktopNavigation.Div>

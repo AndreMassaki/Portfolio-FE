@@ -2,14 +2,9 @@ import styled from 'styled-components';
 
 const Projects = styled.section`
   background-color: ${({ theme }) => theme.default.background};
-  padding: 1rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  @media screen and (min-width: 768px) {
-    padding: 2rem 0
-  }
 `;
 
 Projects.Texts = styled.div`
@@ -80,7 +75,7 @@ Projects.Span = styled.span`
 `;
 
 Projects.Container = styled.section`
-  padding: 2.5rem 0;
+  padding-top: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;

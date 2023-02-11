@@ -1,4 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
@@ -52,47 +53,52 @@ export default function HeaderWrapoper() {
               exit={{ scale: 0 }}
             >
               <li>
-                <MobileNavigation.Link
+                <Link
                   href="#home"
+                  scroll={false}
                 >
                   Início
-                </MobileNavigation.Link>
+                </Link>
               </li>
               <li>
-                <MobileNavigation.Link
+                <Link
                   href="#projects"
+                  scroll={false}
                 >
                   Projetos
-                </MobileNavigation.Link>
+                </Link>
               </li>
               <li>
-                <MobileNavigation.Link
+                <Link
                   href="#skills"
+                  scroll={false}
                 >
                   Habilidades
-                </MobileNavigation.Link>
+                </Link>
               </li>
               <li>
-                <MobileNavigation.Link
+                <Link
                   href="#about"
+                  scroll={false}
                 >
                   Sobre
-                </MobileNavigation.Link>
+                </Link>
               </li>
               <li>
-                <MobileNavigation.Link
+                <Link
                   href="#contact"
+                  scroll={false}
                 >
                   Contato
-                </MobileNavigation.Link>
+                </Link>
               </li>
               <li>
-                <MobileNavigation.Link
-                  href="#blog"
-                  onClick={() => alert('Em breve!')}
+                <Link
+                  href="#home"
+                  scroll={false}
                 >
                   Blog
-                </MobileNavigation.Link>
+                </Link>
               </li>
             </MobileNavigation.List>
           </MobileNavigation>

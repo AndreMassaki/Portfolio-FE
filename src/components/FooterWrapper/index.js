@@ -6,14 +6,9 @@ export default function FooterWrapper() {
     <Footer>
       <LogoWrapper />
       <Footer.Container>
-        <Footer.Link
+        <Footer.Dracula
           href="https://draculatheme.com/pro"
-        >
-          <Footer.Image
-            src="/images/dracula.webp"
-            alt="Image"
-          />
-        </Footer.Link>
+        />
         <Footer.Texts>
           <Footer.Span
             purple

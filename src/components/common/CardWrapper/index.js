@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import Card from './styles';
 
 export default function CardWrapper({
@@ -10,8 +12,8 @@ export default function CardWrapper({
 }) {
   return (
     <Card>
-      <Card.Link
-        onClick={() => alert('Em breve!')}
+      <Link
+        href="#projects"
       >
         <Card.Image
           src={src}
@@ -53,7 +55,7 @@ export default function CardWrapper({
             {children}
           </Card.Text>
         </Card.Texts>
-      </Card.Link>
+      </Link>
     </Card>
   );
 }

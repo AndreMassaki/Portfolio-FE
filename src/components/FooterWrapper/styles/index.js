@@ -31,13 +31,17 @@ Footer.Texts = styled.div`
   gap: 0.5rem;
 `;
 
-Footer.Link = styled.a`
+Footer.Dracula = styled.a`
+  background-image: url(/images/dracula.webp);
+  width: 4rem;
+  height: 4rem;
+  background-size: cover;
   border-radius: 50%;
-`;
+  transition: transform 0.3s;
 
-Footer.Image = styled.img`
-  width: 5rem;
-  border-radius: 50%;
+  &:hover {
+    transform: scale(1.05);
+  }
 `;
 
 Footer.Span = styled.span`

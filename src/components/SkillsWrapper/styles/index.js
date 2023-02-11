@@ -5,11 +5,6 @@ const Skills = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 0;
-
-  @media screen and (min-width: 768px) {
-    padding: 2rem 0;
-  }
 `;
 
 Skills.Title = styled.h2`
@@ -42,7 +37,7 @@ Skills.Technologies = styled.section`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 2.5rem 0;
+  padding-top: 2.5rem;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;

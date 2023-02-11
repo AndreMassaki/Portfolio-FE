@@ -5,7 +5,6 @@ const Contact = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2.5rem 0;
 `;
 
 Contact.Title = styled.h2`

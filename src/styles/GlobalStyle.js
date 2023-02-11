@@ -13,6 +13,10 @@ export default createGlobalStyle`
     scroll-behavior: smooth;
   }
 
+  body {
+    background-color: ${({ theme }) => theme.default.background};
+  }
+
   body::-webkit-scrollbar {
     width: 0.5em;
     background-color: ${({ theme }) => theme.default.comment};
