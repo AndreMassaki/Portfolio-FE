@@ -3,7 +3,7 @@ import Logo from './styles';
 export default function LogoWrapper() {
   return (
     <Logo
-      href="#home"
+      href="#"
     >
       <Logo.Span
         green
