@@ -30,8 +30,13 @@ const Technology = styled.a`
   }
 `;
 
-Technology.Image = styled.img`
+Technology.Image = styled.span`
   width: 5rem;
+  height: 5rem;
+  background-image: url(${({ src }) => src});
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 `;
 
 Technology.Text = styled.p`

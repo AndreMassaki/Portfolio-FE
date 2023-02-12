@@ -20,6 +20,32 @@ const Home = styled.section`
   @media screen and (min-width: 1440px) {
     gap: 10rem;
   }
+
+
+
+  .image {
+    object-fit: contain;
+
+    @media screen and (min-width: 375px) {
+      width: 18rem;
+      height: 18rem;
+    }
+
+    @media screen and (min-width: 425px) {
+      width: 22rem;
+      height: 22rem;
+    }
+
+    @media screen and (min-width: 768px) {
+      height: 30rem;
+      width: 20rem;
+      filter: drop-shadow(1rem 1rem 0.3rem #1F2129);
+    }
+
+    @media screen and (min-width: 1024px) {
+      filter: drop-shadow(1.3rem 1.3rem 0.3rem #1F2129);
+    }
+  }
 `;
 
 Home.Background = styled.div`
@@ -33,32 +59,6 @@ Home.Background = styled.div`
 
   @media screen and (min-width: 1024px) {
     display: block;
-  }
-`;
-
-Home.Image = styled.img`
-  width: 16rem;
-  height: 16rem;
-  object-fit: contain;
-
-  @media screen and (min-width: 375px) {
-    width: 18rem;
-    height: 18rem;
-  }
-
-  @media screen and (min-width: 425px) {
-    width: 22rem;
-    height: 22rem;
-  }
-
-  @media screen and (min-width: 768px) {
-    height: 30rem;
-    width: 20rem;
-    filter: drop-shadow(1rem 1rem 0.3rem #1F2129);
-  }
-
-  @media screen and (min-width: 1024px) {
-    filter: drop-shadow(1.3rem 1.3rem 0.3rem #1F2129);
   }
 `;
 

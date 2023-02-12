@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 
 import Home from './styles';
@@ -22,7 +23,11 @@ export default function HomeWrapper() {
           },
         }}
       >
-        <Home.Image
+        <Image
+          className="image"
+          priority
+          width={256}
+          height={256}
           src="/images/home.webp"
           alt="Image"
         />

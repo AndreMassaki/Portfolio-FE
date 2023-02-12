@@ -7,7 +7,6 @@ export default function TechnologyWrapper({ src, href, children }) {
     >
       <Technology.Image
         src={src}
-        alt="Image"
       />
       <Technology.Text>
         {children}

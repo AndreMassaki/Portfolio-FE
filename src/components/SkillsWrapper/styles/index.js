@@ -50,10 +50,6 @@ Skills.Technologies = styled.section`
   }
 `;
 
-Skills.Image = styled.img`
-  width: 5rem;
-`;
-
 Skills.Text = styled.p`
   color: ${({ theme }) => theme.default.remaining.white};
   margin: 0 auto;

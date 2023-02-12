@@ -50,24 +50,24 @@ About.Container = styled.div`
   @media screen and (min-width: 1024px) {
     gap: 3.5rem;
   }
-`;
 
-About.Image = styled.img`
-  width: 100%;
-  height: 20rem;
-  object-fit: contain;
-  filter: drop-shadow(-0.5rem 0.5rem 0.2rem #1F2129);
+  .image {
+    width: 100%;
+    height: 20rem;
+    object-fit: contain;
+    filter: drop-shadow(-0.5rem 0.5rem 0.2rem #1F2129);
 
-  @media screen and (min-width: 375px) {
-    height: 18rem;
-  }
+    @media screen and (min-width: 375px) {
+      height: 18rem;
+    }
 
-  @media screen and (min-width: 425px) {
-    height: 22rem;
-  }
+    @media screen and (min-width: 425px) {
+      height: 22rem;
+    }
 
-  @media screen and (min-width: 768px) {
-    height: 30rem;
+    @media screen and (min-width: 768px) {
+      height: 30rem;
+    }
   }
 `;
 
@@ -94,7 +94,7 @@ About.Texts = styled.div`
 About.Text = styled.p`
   color: ${({ theme }) => theme.default.remaining.white};
 
-  ${({ title }) => title && css`
+  ${({ big }) => big && css`
     font-size: 1.2rem;
 
     @media screen and (min-width: 1024px) {

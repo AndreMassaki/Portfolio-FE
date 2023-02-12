@@ -12,7 +12,7 @@ export default function FormWrapper() {
   return (
     <Form>
       <Form.Container>
-        <Form.Label for="name">
+        <Form.Label htmlFor="name">
           Nome
           <Form.Span
             small
@@ -30,7 +30,7 @@ export default function FormWrapper() {
         />
       </Form.Container>
       <Form.Container>
-        <Form.Label for="lastName">
+        <Form.Label htmlFor="lastName">
           Sobrenome
           <Form.Span
             small
@@ -48,7 +48,7 @@ export default function FormWrapper() {
         />
       </Form.Container>
       <Form.Container>
-        <Form.Label for="email">
+        <Form.Label htmlFor="email">
           Email
           <Form.Span
             small
@@ -65,7 +65,7 @@ export default function FormWrapper() {
         />
       </Form.Container>
       <Form.Container>
-        <Form.Label for="tel">
+        <Form.Label htmlFor="tel">
           Número
           <Form.Span
             small
@@ -82,7 +82,7 @@ export default function FormWrapper() {
         />
       </Form.Container>
       <Form.Container>
-        <Form.Label for="subject">
+        <Form.Label htmlFor="subject">
           Assunto
           <Form.Span
             small
@@ -99,7 +99,7 @@ export default function FormWrapper() {
         />
       </Form.Container>
       <Form.Container>
-        <Form.Label for="select">
+        <Form.Label htmlFor="select">
           Qual é a melhor forma para entrar em contato com você?
         </Form.Label>
         <Form.Select
@@ -117,7 +117,7 @@ export default function FormWrapper() {
         </Form.Select>
       </Form.Container>
       <Form.Container>
-        <Form.Label for="message">
+        <Form.Label htmlFor="message">
           Mensagem
           <Form.Span
             small

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 import Card from './styles';
@@ -13,9 +14,14 @@ export default function CardWrapper({
   return (
     <Card>
       <Link
+        className="link"
         href="#projects"
       >
-        <Card.Image
+        <Image
+          className="image"
+          width={272}
+          height={147}
+          loading="lazy"
           src={src}
           alt={alt}
         />

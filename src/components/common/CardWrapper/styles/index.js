@@ -17,18 +17,16 @@ const Card = styled.article`
     width: 25vw;
     max-width: 16rem;
   }
-`;
 
-Card.Link = styled.a`
-  text-decoration: none;
-
-  &:hover {
-    cursor: pointer;
+  .link {
+    position: relative;
+    text-decoration: none;
   }
-`;
 
-Card.Image = styled.img`
-  width: 100%;
+  .image {
+    width: 100%;
+    height: auto;
+  }
 `;
 
 Card.Texts = styled.section`

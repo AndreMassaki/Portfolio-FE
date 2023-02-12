@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 import About from './styles';
 
@@ -24,14 +25,18 @@ export default function AboutWrapper() {
             },
           }}
         >
-          <About.Image
-            src="images/about.webp"
+          <Image
+            className="image"
+            loading="lazy"
+            width={256}
+            height={256}
+            src="/images/about.webp"
             alt="Image"
           />
         </motion.div>
         <About.Texts>
           <About.Text
-            title
+            big
           >
             <About.Span
               green
