@@ -1,9 +1,9 @@
 import Logo from './styles';
 
-export default function LogoWrapper() {
+export default function LogoWrapper({ href }) {
   return (
     <Logo
-      href="#"
+      href={href}
     >
       <Logo.Span
         green

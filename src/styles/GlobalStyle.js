@@ -17,6 +17,11 @@ export default createGlobalStyle`
     background-color: ${({ theme }) => theme.default.background};
   }
 
+  *::selection {
+    color: ${({ theme }) => theme.default.cyan};
+    background-color: ${({ theme }) => theme.default.purple};
+  }
+
   body::-webkit-scrollbar {
     width: 0.5em;
     background-color: ${({ theme }) => theme.default.comment};

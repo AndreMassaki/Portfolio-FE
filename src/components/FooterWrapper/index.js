@@ -4,7 +4,9 @@ import Footer from './styles';
 export default function FooterWrapper() {
   return (
     <Footer>
-      <LogoWrapper />
+      <LogoWrapper
+        href="/"
+      />
       <Footer.Container>
         <Footer.Dracula
           href="https://draculatheme.com/pro"

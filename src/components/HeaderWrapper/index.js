@@ -21,7 +21,9 @@ export default function HeaderWrapoper() {
   return (
     <Header>
       <Header.Div>
-        <LogoWrapper />
+        <LogoWrapper
+          href="/"
+        />
         <DesktopNavigationWrapper />
       </Header.Div>
       <AiOutlineMenu
@@ -54,7 +56,7 @@ export default function HeaderWrapoper() {
             >
               <li>
                 <Link
-                  href="#home"
+                  href="/"
                   scroll={false}
                 >
                   Início
@@ -94,7 +96,7 @@ export default function HeaderWrapoper() {
               </li>
               <li>
                 <Link
-                  href="#home"
+                  href="/404"
                   scroll={false}
                 >
                   Blog

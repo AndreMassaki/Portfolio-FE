@@ -48,7 +48,7 @@ export default function DesktopNavigationWrapper() {
         </DesktopNavigation.Item>
         <DesktopNavigation.Item>
           <Link
-            href="#home"
+            href="/404"
             scroll={false}
           >
             Blog
