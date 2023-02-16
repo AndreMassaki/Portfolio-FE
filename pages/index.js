@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import styled from 'styled-components';
 
 import AboutWrapper from '../src/components/AboutWrapper';
@@ -8,6 +7,7 @@ import HeaderWrapper from '../src/components/HeaderWrapper';
 import HomeWrapper from '../src/components/HomeWrapper';
 import ProjectsWrapper from '../src/components/ProjectsWrapper';
 import SkillsWrapper from '../src/components/SkillsWrapper';
+import SEO from '../src/components/utils/SEO';
 
 const Main = styled.main`
   display: flex;
@@ -18,9 +18,10 @@ const Main = styled.main`
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Portfólio - André Massaki</title>
-      </Head>
+      <SEO
+        title="Portfólio - André Massaki"
+        description="Sou um desenvolvedor web habilidoso e apaixonado por tecnologia, procurando por oportunidades de trabalho free lancer ou estágio na área."
+      />
       <Main>
         <HeaderWrapper />
         <HomeWrapper />
